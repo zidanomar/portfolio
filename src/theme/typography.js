@@ -1,11 +1,11 @@
 export const typography = {
   h1: {
     fontSize: ['3xl', '3xl', '4xl', '4xl', '4xl'],
-    fontWeight: 'bold',
+    fontWeight: 'black',
   },
   h2: {
     fontSize: ['2xl', '2xl', '3xl', '3xl', '3xl'],
-    fontWeight: 'semibold',
+    fontWeight: 'bold',
   },
   h3: {
     fontSize: ['xl', 'xl', '2xl', '2xl', '2xl'],

@@ -1,7 +1,12 @@
-import { Text } from '@chakra-ui/react';
+import { Container } from '@chakra-ui/react';
+import { Hero } from './components/Sections';
 
 function App() {
-  return <Text as='h1'>430am dev</Text>;
+  return (
+    <Container maxW='container.xl'>
+      <Hero />
+    </Container>
+  );
 }
 
 export default App;
