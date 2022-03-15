@@ -1,17 +1,25 @@
 import React from 'react';
-import Card from './Card';
+
+import { Box, useColorModeValue } from '@chakra-ui/react';
+import { motion } from 'framer-motion';
+
+const MotionBox = motion(Box);
 
 function HeroCard({ children, ...props }) {
+  const bg = useColorModeValue('brand.white', 'brand.surface');
   return (
-    <Card
-      padding='4'
+    <MotionBox
+      bg={bg}
       position='absolute'
       width='max-content'
-      {...props}
+      padding={6}
+      rounded='md'
+      shadow='md'
       textAlign='center'
+      {...props}
     >
       {children}
-    </Card>
+    </MotionBox>
   );
 }
 

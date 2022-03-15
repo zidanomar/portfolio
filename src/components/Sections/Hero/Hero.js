@@ -38,12 +38,32 @@ function Hero() {
       >
         {isLargerThan576 && (
           <React.Fragment>
-            <HeroCard top='-5%' left='-5%' transform='translate(-50%, -50%)'>
+            <HeroCard
+              top='-5%'
+              left='-5%'
+              initial={{ y: -20, x: -100 }}
+              animate={{ y: -40 }}
+              transition={{
+                repeat: Infinity,
+                repeatType: 'reverse',
+                duration: 1.6,
+              }}
+            >
               <Text as='h4'>
                 Hi, I'm <chakra.span color='brand.primary'>Zidan</chakra.span>
               </Text>
             </HeroCard>
-            <HeroCard left={'105%'} top='50%' transform='translate(0, -50%)'>
+            <HeroCard
+              left={'103%'}
+              top='50%'
+              initial={{ y: -20 }}
+              animate={{ y: 0 }}
+              transition={{
+                repeat: Infinity,
+                repeatType: 'reverse',
+                duration: 1.4,
+              }}
+            >
               <React.Fragment>
                 <Text as='h4'>CE Student</Text>
                 <Text as='h4' color='brand.primary'>
@@ -51,7 +71,17 @@ function Hero() {
                 </Text>
               </React.Fragment>
             </HeroCard>
-            <HeroCard right={'105%'} top='80%' transform='translate(0, -50%)'>
+            <HeroCard
+              right={'105%'}
+              bottom='0'
+              initial={{ y: -30 }}
+              animate={{ y: 0 }}
+              transition={{
+                repeat: Infinity,
+                repeatType: 'reverse',
+                duration: 1.8,
+              }}
+            >
               <React.Fragment>
                 <Text as='h4'>Based in</Text>
                 <Text as='h4' color='brand.primary'>
