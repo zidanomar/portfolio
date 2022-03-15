@@ -27,6 +27,7 @@ function Hero() {
       alignItems='center'
       justifyContent='center'
       gap={['4', '6']}
+      mt='16'
     >
       {!isLargerThan576 && <Text as='h3'>Zidan Omar Hamid</Text>}
       <Box
