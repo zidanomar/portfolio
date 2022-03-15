@@ -1,10 +1,10 @@
-<svg width="512" height="535" viewBox="0 0 512 535" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<path d="M483.255 407.391C393.955 555.781 81.4053 581.892 14.4304 446.24C-52.5446 310.588 126.693 13.8082 282.968 0.434058C439.243 -12.3033 572.555 258.365 483.255 407.391Z" fill="#FFC069"/>
-<mask id="mask0_16_62" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="512" height="535">
-<path d="M483.255 407.391C393.955 555.781 81.4053 581.892 14.4304 446.24C-52.5446 310.588 126.693 13.8082 282.968 0.434058C439.243 -12.3033 572.555 258.365 483.255 407.391Z" fill="#FFC069"/>
+<svg width="293" height="306" viewBox="0 0 293 306" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M276.55 233.136C225.447 318.054 46.5855 332.997 8.258 255.368C-30.0695 177.739 72.5021 7.90198 161.933 0.248397C251.364 -7.04073 327.654 147.853 276.55 233.136Z" fill="#FFC069"/>
+<mask id="mask0_16_62" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="293" height="306">
+<path d="M276.55 233.136C225.447 318.054 46.5855 332.997 8.258 255.368C-30.0695 177.739 72.5021 7.90198 161.933 0.248397C251.364 -7.04073 327.654 147.853 276.55 233.136Z" fill="#FFC069"/>
 </mask>
 <g mask="url(#mask0_16_62)">
-<rect x="-13.9795" y="8.73718" width="538.212" height="538.212" fill="url(#pattern0)"/>
+<rect x="-8" y="7" width="308" height="308" fill="url(#pattern0)"/>
 </g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
