@@ -16,7 +16,7 @@ import curious from '../../../assets/svg/curious.svg';
 import itguy from '../../../assets/svg/itguy.svg';
 import { SkillCard } from '../../Card';
 
-import { frontend, backend } from '../../Card/skills';
+import { frontend, backend } from '../../Card/data';
 
 function Proficiency() {
   return (

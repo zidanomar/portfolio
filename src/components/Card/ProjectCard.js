@@ -2,7 +2,7 @@ import { Box, Flex, Image, Text } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import Card from './Card';
 
-function SkillCard({ data }) {
+function ProjectCard({ data }) {
   const [activeState, setActiveState] = useState(data[0]);
   return (
     <Flex flexDir='column' justifyContent='center' alignItems='center' gap='6'>
@@ -23,7 +23,6 @@ function SkillCard({ data }) {
       >
         {data.map((x, i) => (
           <Card
-            key={i}
             w='60px'
             h='60px'
             padding='2'
@@ -52,4 +51,4 @@ function SkillCard({ data }) {
   );
 }
 
-export default SkillCard;
+export default ProjectCard;
