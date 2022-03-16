@@ -16,8 +16,8 @@ import { ReactComponent as Github } from '../../../assets/svg/github.svg';
 import { ReactComponent as LinkedIn } from '../../../assets/svg/linkedin.svg';
 import { ReactComponent as Instagram } from '../../../assets/svg/instagram.svg';
 import { ReactComponent as Mail } from '../../../assets/svg/mail.svg';
+import { HeroCard } from '../../Card';
 import IconLink from '../../Link/IconLink';
-import HeroCard from '../../Card/HeroCard';
 import Divider from '../../Divider/Divider';
 
 function Hero() {

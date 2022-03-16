@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
-import { About, Hero } from './components/Sections';
+import { About, Hero, Proficiency } from './components/Sections';
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Proficiency />
       <Footer />
     </React.Fragment>
   );
