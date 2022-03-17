@@ -24,8 +24,8 @@ function Project() {
   const [activeState, setActiveState] = useState(projects[0]);
 
   return (
-    <Box bg={bg} pt='4'>
-      <Container maxW='container.xl'>
+    <Box bg={bg}>
+      <Container maxW='container.xl' py={16}>
         <Heading textAlign='center' mb={16}>
           Latest Projects 🚀
         </Heading>
@@ -46,13 +46,8 @@ function Project() {
               setActiveState={setActiveState}
             />
           </GridItem>
-          <GridItem colSpan={2} h='100%'>
-            <Flex
-              height='100%'
-              flexDir='column'
-              justifyContent='space-between'
-              gap={10}
-            >
+          <GridItem colSpan={[0, 0, 0, 2]} h='100%'>
+            <Flex flexDir='column' justifyContent='space-between' gap={10}>
               <VStack align='start' spacing={6}>
                 <Text as='h3'>{activeState.title}</Text>
                 <Text>{activeState.description}</Text>

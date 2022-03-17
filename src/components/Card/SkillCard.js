@@ -7,7 +7,13 @@ function SkillCard({ data }) {
   return (
     <Flex flexDir='column' justifyContent='center' alignItems='center' gap='6'>
       <Card borderRadius='2xl'>
-        <Flex w='300px' h='300px' flexDir='column' alignItems='center' gap='6'>
+        <Flex
+          maxW='300px'
+          h='300px'
+          flexDir='column'
+          alignItems='center'
+          gap='6'
+        >
           <Text as='h3' textAlign='center'>
             {activeState.title}
           </Text>
@@ -16,11 +22,7 @@ function SkillCard({ data }) {
           </Box>
         </Flex>
       </Card>
-      <Flex
-        width='calc(300px + 2.5rem)'
-        alignItems='center'
-        justifyContent='space-between'
-      >
+      <Flex width='300px' alignItems='center' justifyContent='space-between'>
         {data.map((x, i) => (
           <Card
             key={i}

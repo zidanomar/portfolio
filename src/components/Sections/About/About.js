@@ -32,7 +32,7 @@ function About() {
   const bg = useColorModeValue('brand.white', 'brand.surface');
   return (
     <Box bg={bg}>
-      <Container maxW='container.xl' py={10}>
+      <Container maxW='container.xl' py={16}>
         <Stack spacing='6'>
           <Text as='h1' textAlign='center'>
             Zidan Omar Hamid

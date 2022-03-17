@@ -20,8 +20,8 @@ import { frontend, backend } from '../../Card/data';
 
 function Proficiency() {
   return (
-    <Box pt='4'>
-      <Container maxW='container.xl'>
+    <Box>
+      <Container maxW='container.xl' py={16}>
         <Stack spacing={16}>
           <Heading textAlign='center'>✨ My Main Skills ✨</Heading>
           <Grid

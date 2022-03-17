@@ -20,10 +20,12 @@ import IconLink from '../../Link/IconLink';
 function Contact() {
   const bg = useColorModeValue('brand.light', 'brand.dark');
   return (
-    <Box bg={bg} py={6} mb={16}>
+    <Box bg={bg} py={16}>
       <Container maxW={'container.xl'}>
         <VStack spacing={10}>
-          <Heading fontSize='2xl'>😸 Keep In Touch With Me 😸</Heading>
+          <Heading fontSize={['xl', '2xl']}>
+            😸 Keep In Touch With Me 😸
+          </Heading>
           <HStack spacing={6} align='center'>
             <IconLink
               icon={Mail}

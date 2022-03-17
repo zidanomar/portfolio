@@ -28,8 +28,8 @@ function Hero() {
     <Box>
       <Container maxW='container.xl'>
         <Flex
-          h='100vh'
-          mt='16'
+          minH='100vh'
+          mt={['0', '16']}
           flexDir='column'
           alignItems='center'
           justifyContent='center'

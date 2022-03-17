@@ -18,7 +18,7 @@ function Navbar() {
   const { toggleColorMode } = useColorMode();
   return (
     <Box
-      width='100%'
+      width='100vw'
       bg={bg}
       shadow='md'
       position='fixed'
