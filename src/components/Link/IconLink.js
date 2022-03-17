@@ -1,9 +1,9 @@
 import { Icon, Link } from '@chakra-ui/react';
 import React from 'react';
 
-function IconLink({ icon, href, target = '_blank' }) {
+function IconLink({ icon, ...props }) {
   return (
-    <Link w={[6, 10]} h={[6, 10]} href={href} target={target}>
+    <Link w={[6, 10]} h={[6, 10]} {...props}>
       <Icon
         as={icon}
         w={[6, 10]}

@@ -1,30 +1,46 @@
+import ppisakarya from '../../../assets/image/ppisakarya.jpg';
+import opengreenspace from '../../../assets/image/opengreenspace.jpg';
+import crypto from '../../../assets/image/crypto.jpg';
+
 const projects = [
   {
     title: 'PPI Sakarya Data Center',
     description:
-      "Hunt anything kitty run to human with blood on mouth from frenzied attack on poor innocent mouse, don't i look cute? or sitting in a box or experiences short bursts of poo-phoria after going to the loo eat my own ears paw your face to wake you up in the morning chase laser.",
-    img: 'https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1513&q=80',
-    tags: ['React', 'Mapboxgl', 'CSV'],
-    url: 'https://github.com/zidanomar',
-    sc: 'https://github.com/zidanomar',
+      'This is my biggest project so far and i really proud of it. I wanted to contribute for Indonesian Student Association in Sakarya so i decided to build webapp that helps for managing student data and providing helpful informations for all student.',
+    img: ppisakarya,
+    tags: [
+      'React',
+      'Chakra UI',
+      'Axios',
+      'Redux',
+      'Formik',
+      'React Table',
+      'Nodejs',
+      'Express',
+      'Sequelize',
+      'Postgresql',
+      'Netlify',
+      'Heroku',
+    ],
+    url: 'https://vigilant-jones-ef1325.netlify.app/',
   },
   {
-    title: 'Plane App',
+    title: 'Istanbul Open Green Space Location',
     description:
-      "Hunt anything kitty run to human with blood on mouth from frenzied attack on poor innocent mouse, don't i look cute? or sitting in a box or experiences short bursts of poo-phoria after going to the loo eat my own ears paw your face to wake you up in the morning chase laser.",
-    img: 'https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1513&q=80',
-    tags: ['React', 'Mapboxgl', 'CSV'],
-    url: 'https://github.com/zidanomar',
-    sc: 'https://github.com/zidanomar',
+      'This is one of my favourite project. Not something fancy but i learned how to work with another library in react. Also with real data provided by Istanbul Open Data Portal, i created simple map app that show the location of open green spaces in Istanbul',
+    img: opengreenspace,
+    tags: ['React', 'Mapboxgl', 'React Bootstrap'],
+    url: 'https://istanbulpark.netlify.app/',
+    sc: 'https://github.com/zidanomar/istanbul-park-locations',
   },
   {
-    title: 'Istanbul Open Green Space',
+    title: 'Crypto Dashboard',
     description:
-      "Hunt anything kitty run to human with blood on mouth from frenzied attack on poor innocent mouse, don't i look cute? or sitting in a box or experiences short bursts of poo-phoria after going to the loo eat my own ears paw your face to wake you up in the morning chase laser.",
-    img: 'https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1513&q=80',
-    tags: ['React', 'Mapboxgl', 'CSV'],
-    url: 'https://github.com/zidanomar',
-    sc: 'https://github.com/zidanomar',
+      'One of my first project. When i was learing react, i watch a lot of video on youtube to figure out how react works and try to implement it by my own like i create my own design for that tutorial',
+    img: crypto,
+    tags: ['React', 'Coingecko API', 'React Bootstrap'],
+    url: 'https://react-bootstrap-crypto-dashboard.netlify.app/',
+    sc: 'https://github.com/zidanomar/crypto-dashboard',
   },
 ];
 

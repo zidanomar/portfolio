@@ -13,13 +13,14 @@ import {
   VStack,
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
-import Divider from '../../Divider/Divider';
+import { FiExternalLink } from 'react-icons/fi';
 
 import { projects } from './projects';
+import Divider from '../../Divider/Divider';
 import ProjectSlide from './ProjectSlide';
 
 function Project() {
-  const bg = useColorModeValue('brand.light', 'brand.surface');
+  const bg = useColorModeValue('brand.white', 'brand.surface');
   const [activeState, setActiveState] = useState(projects[0]);
 
   return (
@@ -55,17 +56,34 @@ function Project() {
               <VStack align='start' spacing={6}>
                 <Text as='h3'>{activeState.title}</Text>
                 <Text>{activeState.description}</Text>
-                <HStack spacing={2}>
+                <Flex width='100%' wrap='wrap' gap='2'>
                   {activeState.tags.map((x, i) => (
                     <Badge key={i} colorScheme='orange'>
                       {x}
                     </Badge>
                   ))}
-                </HStack>
+                </Flex>
               </VStack>
               <HStack spacing='6' alignSelf='end'>
-                <Button>Button</Button>
-                <Button>Button</Button>
+                {activeState.sc && (
+                  <Button
+                    as='a'
+                    href={activeState.sc}
+                    target='_blank'
+                    rightIcon={<FiExternalLink />}
+                  >
+                    Source Code
+                  </Button>
+                )}
+
+                <Button
+                  as='a'
+                  href={activeState.url}
+                  target='_blank'
+                  rightIcon={<FiExternalLink />}
+                >
+                  Preview Site
+                </Button>
               </HStack>
             </Flex>
           </GridItem>

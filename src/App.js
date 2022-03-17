@@ -1,8 +1,13 @@
 import React from 'react';
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
-import { About, Hero, Proficiency } from './components/Sections';
-import Project from './components/Sections/Project/Project';
+import {
+  About,
+  Contact,
+  Hero,
+  Proficiency,
+  Project,
+} from './components/Sections';
 
 function App() {
   return (
@@ -12,6 +17,7 @@ function App() {
       <About />
       <Proficiency />
       <Project />
+      <Contact />
       <Footer />
     </React.Fragment>
   );

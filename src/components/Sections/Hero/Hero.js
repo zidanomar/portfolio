@@ -3,6 +3,7 @@ import {
   chakra,
   Container,
   Flex,
+  Heading,
   HStack,
   Image,
   Text,
@@ -34,7 +35,7 @@ function Hero() {
           justifyContent='center'
           gap={['4', '6']}
         >
-          {!isLargerThan576 && <Text as='h3'>Zidan Omar Hamid</Text>}
+          {!isLargerThan576 && <Heading>Zidan Omar Hamid</Heading>}
           <Box
             width={['80%', '80%', '100%']}
             height={['80%', '80%', '100%']}
@@ -140,16 +141,26 @@ function Hero() {
             </HStack>
           </Flex>
           <HStack spacing={6}>
-            <IconLink icon={Github} href='https://github.com/zidanomar' />
+            <IconLink
+              icon={Github}
+              href='https://github.com/zidanomar'
+              isExternal
+            />
             <IconLink
               icon={LinkedIn}
               href='https://www.linkedin.com/in/zidan-omar-hamid-611b8221b/'
+              isExternal
             />
             <IconLink
               icon={Instagram}
               href='https://www.instagram.com/430am.dev/'
+              isExternal
             />
-            <IconLink icon={Mail} href='mailto:hzidanomar@gmail.com' />
+            <IconLink
+              icon={Mail}
+              href='mailto:zidanomar@430am.dev'
+              isExternal
+            />
           </HStack>
         </Flex>
       </Container>

@@ -17,7 +17,7 @@ function Project() {
   return (
     <Link
       href='https://github.com/zidanomar'
-      target='_blank'
+      isExternal
       color='brand.primary'
       lineHeight='8'
       fontSize='md'

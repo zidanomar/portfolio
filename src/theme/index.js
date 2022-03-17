@@ -2,6 +2,7 @@ import { extendTheme, theme as base } from '@chakra-ui/react';
 import { mode } from '@chakra-ui/theme-tools';
 
 import { color } from './color';
+import { buttonStyle } from './components/button';
 import { typography } from './typography';
 
 const config = {
@@ -41,6 +42,11 @@ const theme = extendTheme({
   fonts: {
     heading: `'Nunito', ${base.fonts.heading}`,
     body: `'Nunito', ${base.fonts.body}`,
+  },
+  components: {
+    Button: {
+      ...buttonStyle,
+    },
   },
 });
 
