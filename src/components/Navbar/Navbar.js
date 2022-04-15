@@ -35,7 +35,7 @@ function Navbar() {
             </Button>
             <Button
               as='a'
-              href='https://drive.google.com/file/d/1A_98ZICdoGCB0r2z8z7K1GjK8gqpsnIP/view'
+              href='https://drive.google.com/file/d/1TP0wzuoLv82sYj-6iJRBgv01mKc6SNxt/view'
               target='_blank'
               rightIcon={<FiExternalLink />}
             >
